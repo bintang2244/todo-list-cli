@@ -15,3 +15,7 @@ while True:
         add_task()
     elif pilih == "2":
         break
+
+if name == "":
+    print("Tidak boleh kosong")
+    return
