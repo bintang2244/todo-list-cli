@@ -1,0 +1,17 @@
+tasks = []
+
+def add_task():
+    name = input("Nama task: ")
+    tasks.append(name)
+    print("Berhasil ditambah!")
+
+while True:
+    print("1. Tambah Task")
+    print("2. Keluar")
+    
+    pilih = input("Pilih: ")
+    
+    if pilih == "1":
+        add_task()
+    elif pilih == "2":
+        break
